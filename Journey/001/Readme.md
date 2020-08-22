@@ -2,11 +2,11 @@
 ![placeholder image](https://via.placeholder.com/1200x600)
 
 # New post title here
-
+My 100 day journey into the cloud.
 ## Introduction
 
 ✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
+Wanted to be more involed with my learning process and have a place to document my journey.
 ## Prerequisite
 
 ✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
