@@ -67,4 +67,4 @@ Azure CLI
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+https://twitter.com/alexd43/status/1297739823755689984
