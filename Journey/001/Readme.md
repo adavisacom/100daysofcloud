@@ -57,8 +57,11 @@ Choosing the Right Storage Account Type:
       -Mainly for compatibility
       
   -Storage General Purpose V2 (Recommended)
+  
       -Can upgrade from V1->V2
+      
       -Supports Blob, File, Table, and Disk
+      
       -Up to 500PB
       
 Block - Like files in file explorer (-replace, remove, and delete)
