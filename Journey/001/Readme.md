@@ -48,8 +48,11 @@ Choosing the Right Storage Account Type:
 
   -Storage General Purpose V1
       -Supports Blob, File, Table, and Disk
+      
       -Tops out at 500TB**
+      
       -Not recommended by Azure. Does not have latest features
+      
       -Mainly for compatibility
       
   -Storage General Purpose V2 (Recommended)
@@ -58,13 +61,17 @@ Choosing the Right Storage Account Type:
       -Up to 500PB
       
 Block - Like files in file explorer (-replace, remove, and delete)
+
 Append - Can only add data (Logs)
+
 Page - Core of IaaS (Disk files for VMs - VHD)
       
   -Blob Storage (only specific use cases)
+  
       -Only supports Block and Append
       
   -Premium Disk (SSDs) GenPurpV1 & V2 only supports Page Blobs
+  
   -Premium Disk BlockBlob only supports block and append blobs
 
 ## Social Proof
