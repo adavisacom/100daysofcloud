@@ -1,6 +1,5 @@
-# New post title here
+# Storage Accounts Pt.2
 
-Storage Accounts Pt.2
   -Storage Replication and Powershell/Azure CLI commands
 
 ## Introduction
