@@ -23,7 +23,7 @@ Covered Storage Replication in Azure as well as some Powershell and AZ CLI comma
 
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
 
-Storage Replication: LRS, ZRS, GRS, and RA-GRS
+ Storage Replication: LRS, ZRS, GRS, and RA-GRS
   -LRS (Locally Redundant Storage)
     -Cheapest option
     -Only redundant within the datacenter (between racks)
@@ -56,7 +56,7 @@ PowerShell
     -Standard_GRS
     -Standard_RAGRS
     
-    **Account Type
+   **Account Type
       -StorageV2
       -Storage
       
