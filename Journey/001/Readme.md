@@ -22,6 +22,7 @@ Use case for Storage Accounts is to store data in an easily accessible place.
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
 
 Storage Account:
+
   -Blob - Stores massive amounts of storage
       -Backups
       -Random Files
