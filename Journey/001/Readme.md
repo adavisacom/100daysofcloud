@@ -47,6 +47,7 @@ Storage Account:
 Choosing the Right Storage Account Type:
 
   -Storage General Purpose V1
+  
       -Supports Blob, File, Table, and Disk
       
       -Tops out at 500TB**
