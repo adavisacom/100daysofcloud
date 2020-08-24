@@ -20,9 +20,13 @@ We have provided a sample Day Journey entry staring at 0. You can delete this ex
 
 [✍️ Tell us why you started this challenge]
 
+I started this challenge to help me prep for the AZ-104 exam as well as help solidify and document my learning through the exam modules.
+
 [✍️ Tell us where you want to be at the end of the challenge]
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
+I want to be able to retain the knowledge I gain throughout the 100 days and to pass the AZ-104 exam.
+
+- [✍️ Link to your Twitter](https://twitter.com/alexd43)
 - [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
 
 ## Stepping out the door
