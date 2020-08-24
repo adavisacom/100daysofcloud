@@ -69,4 +69,4 @@ Page - Core of IaaS (Disk files for VMs - VHD)
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+https://twitter.com/alexd43/status/1297410476444393472
