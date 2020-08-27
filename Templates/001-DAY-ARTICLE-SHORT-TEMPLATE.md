@@ -1,8 +1,5 @@
 <!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
 ## 
 
 ✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
