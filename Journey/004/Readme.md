@@ -1,6 +1,6 @@
 <!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-## Storage Accounts Pt. $
+## Storage Accounts Pt. 4
 
 ## Use Case
 
