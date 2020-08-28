@@ -1,49 +1,83 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# Storage Accounts Pt.3
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+## Storage Accounts Pt. 3
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
 - ✍️ (Show-Me) Explain in one or two sentences the use case
+
+Covering  using Access Keys, Shared Access Signatures, and Monitoring Storage Accounts
 
 ## Cloud Research
 
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+Using Access Keys
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+  Storage Accounts use Access Keys to share access to the Storage Accounts for other users and services
+  
+  -2 Key
+  
+    -512 bit strings
+    
+  -Can use keys with APIs or PowerShell that needs to access the Storage Accounts.
+  
+  -Also can use with Storage Explorer
+  
+  - Best Practice
+  
+    -Reason why you have 2 access keys:
+    
+      -Give only 1 key to everyone at a time until it is time to regenerate. Then switch to 2nd key, alert everyone about the change, then regengerate 1st when everyone is no longer utilizing it.
+      
+    -Upload file from AZ CLI ex:
+    
+      az storage blob upload --container-name <name of container> --account-name <account name> --account-key <key copied from container> --name <name for new file> --file <path to file on computer>
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+Using Shared Access Signatures
 
-### Step 1 — Summary of Step
+  -SAS - String that contains a security token to be used with a URL.
+  
+  -Can specify:
+  
+    -What services are allowed to use SAS
+    
+      -Blob, file, table, queue
+      
+    -Allowed resource types
+    
+      -Service, Object, Container
+      
+    -Permissions
+    
+      -Read, Write, Delete, List, Add, Create, Update, Process
+      
+    -Allowed access time/date
+    
+    -Allowed IP Addresses
+    
+    -Allowed Protocols
+    
+    -Which key to use
+    
+  -AZ CLI ex:
+  
+    -az storage blob upload --container-name <name of container> --account-name <account name> --sas-token <generated sas token> (in quotes) --name <name for new file> --file <path to file on computer>
+    
+    
+Monitoring your Storage Account in Azure
 
-![Screenshot](https://via.placeholder.com/500x300)
+  -When using Activity Logs
+    -Only covers Administrative Logs (Management Info)(Not in Data Plane)
+      -Events
+      -Security
+      -Alerts
+      -Advisor Recommendations
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+    -Log Analytics
+      -Another way to see data
+      -Need storage account to connect to it for dumping data
 
 ## Social Proof
 
