@@ -24,7 +24,9 @@ Using Access Keys
   -Also can use with Storage Explorer
   
   - Best Practice
+  
     -Reason why you have 2 access keys:
+    
       -Give only 1 key to everyone at a time until it is time to regenerate. Then switch to 2nd key, alert everyone about the change, then regengerate 1st when everyone is no longer utilizing it.
       
     -Upload file from AZ CLI ex:
@@ -37,13 +39,17 @@ Using Shared Access Signatures
   -SAS - String that contains a security token to be used with a URL.
   
   -Can specify:
+  
     -What services are allowed to use SAS
+    
       -Blob, file, table, queue
       
     -Allowed resource types
+    
       -Service, Object, Container
       
     -Permissions
+    
       -Read, Write, Delete, List, Add, Create, Update, Process
       
     -Allowed access time/date
